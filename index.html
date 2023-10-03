@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+
+    <title>formularz</title>
+   <style>
+      form > label {
+          display: block;
+      }
+   </style>
+</head>
+<body>
+    <div class="container">
+<form action="#">
+
+<label for="ele">nazwa elementu:
+    <select><option value="p">p</option></select>
+</label>
+
+<label for="txt">tekst w elemencie:<input type="text" name="tx" id="tx"  value="jakiś tekst"></label>
+
+<label for="date">data w elemencie:<input type="date" name="dt" id="dt" value="2023-02-02"></label>
+
+<label for="padd">padding w elemencie (rem):<input type="range" name="pd" id="pd"></label>
+<label for="marg">margines elementu:<input type="range" name="mg" id="mg"></label>
+<label for="odle">odległość między literami (rem):<input type="text" name="num" id="num" value="0"></label>
+
+<label for="kol1">kolor czcionki:<input type="color" name="col" id="col"></label>
+<label for="kol2">kolor tła elementu:<input type="color" name="col2" id="col2" value="#add5e6"></label>
+
+<fieldset>
+<legend id="obok">wyrównanie tekstu:</legend>
+        <label for="lewa">lewa: <input type="radio" name="text1" id="lewa"></label>
+        <label for="srodek">środek: <input type="radio" name="text1" id="srodek" checked></label>
+        <label for="prawa">prawa: <input type="radio" name="text1" id="prawa"></label>
+</fieldset>
+
+<fieldset>
+<legend id="obok">dekoracja tekstu</legend>
+<label for="pod">podkreślenie: <input type="checkbox" name="dek" id="pod"></label>
+<label for="przek">przekreślenie<input type="checkbox" name="dek" id="przek" checked></label>
+<label for="nad">nadkreślenie<input type="checkbox" name="dek" id="nad"></label>
+</fieldset>
+
+
+<label for="utw"><input type="button" value="utwórz"></label>
+
+
+</label>
+
+
+
+
+
+</form>
+
+
+    </div>
+
+
+
+</body>
+</html>
